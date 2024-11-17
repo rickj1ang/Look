@@ -1,0 +1,7 @@
+look -dir <dirname>
+  read ./<dirname>/.look
+  output .look
+
+look -search="word"
+  read all .look in ./<*>
+  output <filename>
